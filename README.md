@@ -3,8 +3,6 @@
 
 **ForkingInString:** I use OpenCV and Hugging Face BLIP to turn webcam video into instant live captions and object detection.
 
-**Creator/Dev:** [dev-tubakhxn]
-
 Local-first real-time webcam experience inspired by HuggingFace SmolVLM demos. The app continuously captures frames, runs a lightweight BLIP vision-language model, and overlays natural language descriptions plus detected handheld objects/actions on screen.
 
 ## Features
@@ -80,3 +78,4 @@ python main.py
 ## Extending
 - Swap `APP_MODEL_NAME` for another captioning/VLM checkpoint that Hugging Face Transformers supports.
 - Replace `ObjectActionExtractor` with a more advanced parser or detector (e.g., Grounding DINO or open-vocabulary detectors) without touching the UI loop.
+
